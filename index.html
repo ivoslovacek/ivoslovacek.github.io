@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ivo Slováček : index page</title>
+    <style>
+        body {
+            background-color: rgb(106, 144, 204);
+        }
+    </style>
+</head>
+
+<body lang="CS" style="tab-interval:35.4pt" text="black" link="maroon" alink="blue" vlink="navy" marginwidth="10px"
+    marginheight="10px">
+
+    <style>
+        p {
+            text-align: right;
+            margin-right: 10px;
+        }
+
+
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        hr {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+    </style>
+
+    <h1>
+        <img src="img/portrait.jpg" alt="portrait" width="250" height="250">
+        Ivo Slováček
+    </h1>
+
+    <hr>
+
+    I'm currently studying for my bachelor's degree in Computer Science at VŠB - Technical University of Ostrava.
+
+    <hr>
+
+    <marquee width="100%" behavior="alternate">Welcome to my page</marquee>
+    
+</body>
+
+<body>
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            const dateString = now.toLocaleDateString();
+            const timeString = now.toLocaleTimeString();
+
+            document.getElementById('date').textContent = dateString;
+            document.getElementById('time').textContent = timeString;
+        }
+
+        setInterval(updateDateTime, 1000);
+    </script>
+
+    <footer>
+        <hr style="margin: 10px !important;">
+
+        <p><span id="date"></span></p>
+        <p><span id="time"></span></p>
+    </footer>
+</body>
+
+</html>
