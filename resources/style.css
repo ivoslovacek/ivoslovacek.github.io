@@ -1,0 +1,139 @@
+:root{
+    font-size: 24px;
+    --bg-pane: #303446;
+    --secondary-pane: #232634; 
+    --surface-element: #414559;
+    --overlay-element: #737994;
+    --text-color: #c6d0f5;
+    --subtext-color: #a5adce;
+    --subtle-color: #838ba7;
+    --url-color: #8caaee;
+    --selection-color: #626880;
+}
+
+.light-mode{
+    --bg-pane: #eff1f5;
+    --secondary-pane: #dce0e8; 
+    --surface-element: #ccd0da;
+    --overlay-element: #9ca0b0;
+    --text-color: #4c4f69;
+    --subtext-color: #6c6f85;
+    --subtle-color: #8c8fa1;
+    --url-color: #1e66f5;
+    --selection-color: #acb0be;
+}
+
+* {
+    font-family: 'Hind Vadodara', 'Arial';
+    background-color: var(--bg-pane);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+::selection {
+    background-color: var(--selection-color);
+}
+
+a {
+    color: var(--url-color);
+    text-decoration-line: none;
+}
+
+a .current-page {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+
+#container {
+    padding: 0% 20%;
+    min-height: 100%; 
+}
+
+#main {
+    overflow: auto;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+#navbar {
+    text-align: left;
+    position: relative;
+    height: 1rem;
+    margin-bottom: -1rem;
+    padding: 2rem 0;
+    clear: both;
+}
+
+#navbar span {
+    font-family: 'Marck Script', 'Arial';
+    padding: 0;
+    padding-right: 1rem;
+}
+
+.portrait {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+#main h1 {
+    font-family: 'Kreon', 'Arial';
+    padding: 0.5rem 0px;
+    padding-bottom: 2rem;
+}
+
+#theme-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 2rem;
+}
+
+.theme-toggle {
+    width: 1.5rem;
+    height: 1.5rem;
+    outline: none;
+    border-radius: 5px;
+}
+
+.button-dark {
+    padding-left: 0.15rem;
+    width: 1rem;
+    height: 1rem;
+    fill: var(--text-color);
+    display: none;
+}
+
+.button-light {
+    padding-left: 0.15rem;
+    width: 1rem;
+    height: 1rem;
+    fill: var(--text-color);
+    display: block;
+}
+
+footer {
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    height: 2rem;
+    margin-top: -4rem;
+    padding-top: 1rem;
+    clear: both;
+}
+
+.footer-icons{
+    width: 1rem;
+    height: 1rem;
+    fill: var(--text-color);
+}
+
+footer p{
+    font-family: 'Marck Script', 'Arial';
+}
