@@ -29,7 +29,6 @@ function isMobileDevice() {
 }
 
 const isMobile = isMobileDevice();
-console.log(isMobile)
 
 //change padding to accomodate smaller viewports
 const container = document.getElementById("container");
