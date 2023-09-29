@@ -1,0 +1,25 @@
+#project-container {
+    display: block;
+}
+
+#project-container > #project-grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#project-container > #project-grid > span{
+    grid-row: 1;
+}
+
+#project-container > #project-grid > a {
+    grid-row: 2;
+}
+
+#project-container > #project-grid > a > img {
+    width: 10rem;
+    height: 10rem;
+}

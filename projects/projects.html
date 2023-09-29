@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../resources/style.css">
+<link rel="stylesheet" href="./resources/projects.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Marck+Script">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind+Vadodara">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kreon">
+
+<head>
+    <meta charset=" UTF-8">
+    <title> Ivo Slováček</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="container">
+        <div id="navbar">
+            <a href="../index.html"> <span> About me </a></span>
+            <a href="projects.html"> <span class="current-page"> Projects </a></span>
+            <div id="theme-button">
+                <button type="button" class="theme-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="button-dark" viewBox="0 0 24 24">
+                        <path
+                            d="m15.844 3.344l-1.428.781l1.428.781l.781 1.428l.781-1.428l1.428-.781l-1.428-.781l-.781-1.428l-.781 1.428Zm-5.432.814A8 8 0 1 0 18.93 16A9 9 0 0 1 10 7c0-.98.131-1.937.412-2.842ZM2 12C2 6.477 6.477 2 12 2h1.734l-.868 1.5C12.287 4.5 12 5.69 12 7a7 7 0 0 0 8.348 6.87l1.682-.327l-.543 1.626C20.162 19.137 16.417 22 12 22C6.477 22 2 17.523 2 12Zm18.5-5.584l.914 1.67l1.67.914l-1.67.914l-.914 1.67l-.914-1.67L17.916 9l1.67-.914l.914-1.67Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="button-light" viewBox="0 0 24 24">
+                        <path
+                            d="M12 15q1.25 0 2.125-.875T15 12q0-1.25-.875-2.125T12 9q-1.25 0-2.125.875T9 12q0 1.25.875 2.125T12 15Zm0 2q-2.075 0-3.538-1.463T7 12q0-2.075 1.463-3.538T12 7q2.075 0 3.538 1.463T17 12q0 2.075-1.463 3.538T12 17ZM2 13q-.425 0-.713-.288T1 12q0-.425.288-.713T2 11h2q.425 0 .713.288T5 12q0 .425-.288.713T4 13H2Zm18 0q-.425 0-.713-.288T19 12q0-.425.288-.713T20 11h2q.425 0 .713.288T23 12q0 .425-.288.713T22 13h-2Zm-8-8q-.425 0-.713-.288T11 4V2q0-.425.288-.713T12 1q.425 0 .713.288T13 2v2q0 .425-.288.713T12 5Zm0 18q-.425 0-.713-.288T11 22v-2q0-.425.288-.713T12 19q.425 0 .713.288T13 20v2q0 .425-.288.713T12 23ZM5.65 7.05L4.575 6q-.3-.275-.288-.7t.288-.725q.3-.3.725-.3t.7.3L7.05 5.65q.275.3.275.7t-.275.7q-.275.3-.687.288T5.65 7.05ZM18 19.425l-1.05-1.075q-.275-.3-.275-.713t.275-.687q.275-.3.688-.287t.712.287L19.425 18q.3.275.288.7t-.288.725q-.3.3-.725.3t-.7-.3ZM16.95 7.05q-.3-.275-.288-.687t.288-.713L18 4.575q.275-.3.7-.288t.725.288q.3.3.3.725t-.3.7L18.35 7.05q-.3.275-.7.275t-.7-.275ZM4.575 19.425q-.3-.3-.3-.725t.3-.7l1.075-1.05q.3-.275.712-.275t.688.275q.3.275.288.688t-.288.712L6 19.425q-.275.3-.7.288t-.725-.288ZM12 12Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="main">
+            <h1> My projects </h1>
+            <div id="project-container">
+                <div id="project-grid">
+                    <span>Arcade Breakout</span>
+                    <a href="https://github.com/ivoslovacek/arcade-breakout" target="_blank" alt="project link">
+                        <img src="./img/breakout.png" alt="breakout-img">
+                    </a>
+
+                    <span>Global clustering coefficient</span>
+                    <a href="https://github.com/ivoslovacek/vsb-fei-inf/tree/main/alg1/projekt" target="_blank"
+                        alt="project link">
+                        <img src="./img/gcc.png" alt="gcc-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <span>
+            <a href="https://github.com/ivoslovacek" target="_blank" alt="github"><svg
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="footer-icons">
+                    <path
+                        d="M12.001 2c-5.525 0-10 4.475-10 10a9.994 9.994 0 0 0 6.837 9.488c.5.087.688-.213.688-.476c0-.237-.013-1.024-.013-1.862c-2.512.463-3.162-.612-3.362-1.175c-.113-.288-.6-1.175-1.025-1.413c-.35-.187-.85-.65-.013-.662c.788-.013 1.35.725 1.538 1.025c.9 1.512 2.337 1.087 2.912.825c.088-.65.35-1.087.638-1.337c-2.225-.25-4.55-1.113-4.55-4.938c0-1.088.387-1.987 1.025-2.688c-.1-.25-.45-1.275.1-2.65c0 0 .837-.262 2.75 1.026a9.28 9.28 0 0 1 2.5-.338c.85 0 1.7.112 2.5.337c1.913-1.3 2.75-1.024 2.75-1.024c.55 1.375.2 2.4.1 2.65c.637.7 1.025 1.587 1.025 2.687c0 3.838-2.337 4.688-4.563 4.938c.363.312.676.912.676 1.85c0 1.337-.013 2.412-.013 2.75c0 .262.188.574.688.474A10.016 10.016 0 0 0 22 12c0-5.525-4.475-10-10-10Z" />
+                </svg>
+            </a>
+        </span>
+        <span>
+            <a href="https://www.linkedin.com/in/ivo-slov%C3%A1%C4%8Dek-34a923276/" target="_blank" alt="linkeidn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="footer-icons">
+                    <path
+                        d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z" />
+                </svg>
+            </a>
+        </span>
+        <p> Made by Ivo Slováček </p>
+    </footer>
+</body>
+
+<script src="../resources/main.js"></script>
+
+</html>
