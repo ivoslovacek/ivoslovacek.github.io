@@ -19,7 +19,7 @@
     --text-color: #4c4f69;
     --subtext-color: #6c6f85;
     --subtle-color: #8c8fa1;
-    --url-color: #1e66f5;
+    --url-color: #7287fd;
     --selection-color: #acb0be;
 }
 
@@ -39,7 +39,7 @@ html, body {
     background-color: var(--selection-color);
 }
 
-a {
+a, a span{
     color: var(--url-color);
     text-decoration-line: none;
 }
@@ -51,7 +51,6 @@ a .current-page {
 
 
 #container {
-    padding: 0% 20%;
     min-height: 100%; 
 }
 
@@ -80,6 +79,11 @@ a .current-page {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
+}
+
+.portraitsection
+{
+    background: var(--selection-color);
 }
 
 #main h1 {
@@ -119,7 +123,7 @@ a .current-page {
 }
 
 footer {
-    font-size: 18px;
+    font-size: 0.75rem;
     text-align: center;
     position: relative;
     height: 2rem;
