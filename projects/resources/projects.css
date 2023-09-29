@@ -12,6 +12,8 @@
 }
 
 #project-container > #project-grid > span{
+    opacity: 0;
+    animation: appear 3s ease forwards;
     grid-row: 1;
 }
 
@@ -20,6 +22,21 @@
 }
 
 #project-container > #project-grid > a > img {
+    animation: appear 3s ease forwards;
     width: 10rem;
+    opacity: 0;
     height: 10rem;
+    transition: transform 0.3s ease;
+}
+#project-container > #project-grid > a > img:hover {
+    transform: scale(1.1);
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
